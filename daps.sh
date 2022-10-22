@@ -2,4 +2,4 @@ clear && sudo apt update -y && sudo apt upgrade -y && sudo apt install docker.io
     --restart=always \
     -v /var/run/docker.sock:/var/run/docker.sock \
     -v portainer_data:/data \
-    portainer/portainer-ce:2.9.3 && clear && echo "Portainer will be available on [ip adress]:9443. Your ip can be seen below." && ip ad
+    portainer/portainer-ce:latest && clear && echo "Portainer will be available on [ip adress]:9443. Your ip can be seen below." && ip ad
