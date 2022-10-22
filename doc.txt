@@ -1,0 +1,8 @@
+To run the script, go into the directory that the script is contained and
+type the following command --> sudo chmod u+x daps.sh
+If asked for [sudo] password, type your user password, assuming that you have sudo privellages.
+If run by user "root", you won't need to specify [sudo] password.
+After the script is done, the portainer installation will be available on [ip address of server]:9443.
+At the end, the script will automatically run the command "ip ad". That will display the ip address of
+the server, in case you don't know it. Please go to https://github.com/sthivaios/docker_and_portainer_script/
+for more information on this script. Thanks for getting it! :-)
